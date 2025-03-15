@@ -1,2 +1,6 @@
-export { Size, SizeProps, SizeRenderProps } from './Size';
-export { SizeScrollbar, SizeScrollbarProps, SizeScrollbarRenderProps } from './SizeScrollbar';
+export { Size, type SizeProps, type SizeRenderProps } from './Size';
+export {
+  SizeScrollbar,
+  type SizeScrollbarProps,
+  type SizeScrollbarRenderProps,
+} from './SizeScrollbar';

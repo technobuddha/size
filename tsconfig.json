@@ -1,26 +1,15 @@
+// 🚨
+// 🚨 CHANGES TO THIS FILE WILL BE OVERRIDDEN
+// 🚨
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "jsx": "react",
-    "declaration": true,
-    "outDir": "./dist/",
-    "rootDir": "./src/",
-    "strict": true, 
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
+    "composite": true,
+    "allowJs": true,
+    "noEmit": true,
+    "types": ["node"],
+    "lib": ["esnext"]
   },
-  "include": [ "./src/*.ts?" ],
-  "exclude": [],
+  "include": ["*.config.js"],
+  "exclude": []
 }
