@@ -10,6 +10,6 @@
     "types": [],
     "lib": ["esnext", "dom"]
   },
-  "include": ["*.tsx"],
+  "include": ["*.ts", "*.tsx"],
   "exclude": []
 }
